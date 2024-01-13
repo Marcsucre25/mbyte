@@ -1,4 +1,4 @@
-![Logo](https://www.mbytesoluciones.com/images/logo_%201.png)
+![logo](https://github.com/Marcsucre25/mbyte/assets/105298870/8a9e5ab2-89bf-4305-a09a-eb05c2c43a0b)
 
 # MBYTE Soluciones tecnológicas 💻
 
