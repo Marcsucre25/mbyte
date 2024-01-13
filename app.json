@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MBYTE",
+    "slug": "mbyte1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_mbyte.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#7C93B0"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.marcsucre.mbyte1"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "483a5acc-c755-4a89-a533-2bd4898c8753"
+      }
+    }
+  }
+}
