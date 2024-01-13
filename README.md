@@ -5,9 +5,9 @@
 El presente proyecto da a conocer el desarrollo de una aplicación móvil para la microempresa "MBYTE Soluciones tecnológicas", en la cual podrán hallar una gran variedad de insumos tecnológicos de buena calidad
 
 ## Interfaz de la app móvil
+![Screenshot_1705184291](https://github.com/Marcsucre25/mbyte/assets/105298870/c77bca71-6573-43b7-8d07-848a059eb17e)![Screenshot_1705184893](https://github.com/Marcsucre25/mbyte/assets/105298870/7bd78cb0-a743-4ff9-95e6-7592033bfa9c)
 
-![Login](![image](https://github.com/Marcsucre25/mbyte/assets/105298870/c87b9118-e570-44c4-8ad9-24e41a19d4c1)
-)
+
 
 ## Instalación de herramientas
 
