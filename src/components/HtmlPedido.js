@@ -21,7 +21,7 @@ export const generateHTMLPedido = (tableData, formattedDate, total) => {
             </h1>
             <p style="font-size: 20px; margin-top: 10px;"><strong>Teléfono:</strong> +593 97 894 8486 </p>
             <p style="font-size: 20px; margin-top: 10px;"><strong>Dirección:</strong> Quito, Rosa Campuzano y Camilo Guachamín (Norte de Quito)</p>
-            <img src="https://www.mbytesoluciones.com/nuevo/img/logo_mbyte.png" alt="Your Image" style="width: 150px; margin-top: 10px;" />
+            <img src="https://www.mbytesoluciones.com/img/logo_mbyte.png" alt="Your Image" style="width: 150px; margin-top: 10px;" />
             <p style="font-size: 18px; margin-top: 10px;"><strong>DETALLE DE COMPRA</strong>  </p>
             <div style="display: flex; justify-content: center;">
               <table border="1" style="width: 90%; border-collapse: collapse; margin-top: 20px; background-color: #ffffff;">
