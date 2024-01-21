@@ -106,7 +106,7 @@ const Login = ({ navigation }) => {
                     onChangeText={verifyEmail}
                     onEndEditing={() => validateEmail(correo)}
                   />
-                  <Text style={styles.msg}>{errorEmail}</Text>
+
                   <MyTextInput
                     label="Contraseña"
                     placeholder="* * * * * * * *"
@@ -119,11 +119,10 @@ const Login = ({ navigation }) => {
                     value={contrasenia}
                     onChangeText={verifyPassword}
                   />
-                  <Text style={styles.msg}>{errorPassword}</Text>
 
                   <InputButton
                     onPress={() => {
-                      validate() && !errorEmail && !errorPassword
+                      validate()
                         ? login(correo, contrasenia)
                         : Toast.show(
                             <CustomToast
@@ -231,12 +230,6 @@ const styles = StyleSheet.create({
   textLinkContent: {
     color: Colors.tertiary,
     fontSize: 16,
-    fontWeight: "bold",
-  },
-  msg: {
-    color: "red",
-    //marginBottom: 4,
-    marginTop: -5,
     fontWeight: "bold",
   },
 });

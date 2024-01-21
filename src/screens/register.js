@@ -85,11 +85,11 @@ const Register = ({ navigation }) => {
   };
 
   const verifyAdrees = (address) => {
-    // if (validateAddress(address)) {
-    //   setErrorAddress(null);
-    // } else {
-    //   setErrorAddress(messages.ADDRESS_INCORRECT);
-    // }
+    if (address) {
+      setErrorAddress(null);
+    } else {
+      setErrorAddress(messages.ADDRESS_INCORRECT);
+    }
     setAddress(address);
   };
 
