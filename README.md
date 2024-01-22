@@ -17,7 +17,7 @@ El presente proyecto da a conocer el desarrollo de una aplicación móvil para l
 
 
 
-## Instalación de herramientas
+## Instalación de herramientas ⚙
 
 Instalar expo-cli en su máquina:
 
@@ -31,7 +31,7 @@ Descargar expo en su dispositivo móvil ingresando al siguiente link:
   https://play.google.com/store/apps/details?id=host.exp.exponent&pcampaignid=web_share
 ```
 
-## Ejecutar localmente
+## Ejecutar localmente 🖥
 
 Clonar el repositorio
 
@@ -59,7 +59,7 @@ Iniciar el servidor
 
 Finalmente debe escanear el código que proporciona al ejecutar el proyecto con su dispositivo móvil.
 
-## Descarga del APK de la aplicación móvil
+## Descarga del APK de la aplicación móvil 📱
 
 Ir al siguiente link, descargar el apk e instalarlo
 
