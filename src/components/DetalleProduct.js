@@ -14,7 +14,7 @@ import { ListItem } from "@rneui/themed";
 import InputButton from "./Common/inputButton";
 import { AuthContext } from "../Context/AuthContext";
 
-const DetalleProduct = ({ abrirModal, setAbrirModal, product }) => {
+const DetalleProduct = ({ abrirModal, setAbrirModal, product, setProduct }) => {
   const { anadirProducto } = useContext(AuthContext);
   const [cantidad, setCantidad] = useState("1");
 
@@ -23,12 +23,17 @@ const DetalleProduct = ({ abrirModal, setAbrirModal, product }) => {
     setAbrirModal(false);
   };
 
+  const closeModal = () => {
+    setAbrirModal(false);
+    setProduct(null);
+  };
+
   return (
     <>
       <Modal visible={abrirModal} animationType="slide" transparent={true}>
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
-            <TouchableOpacity onPress={() => setAbrirModal(false)}>
+            <TouchableOpacity onPress={closeModal}>
               <Ionicons name="close" size={30} color="#d70000" />
             </TouchableOpacity>
             <Text style={styles.modalTitle}>Detalles del producto</Text>
@@ -60,10 +65,7 @@ const DetalleProduct = ({ abrirModal, setAbrirModal, product }) => {
                           MARCA:{" "}
                           <Text style={styles.textTotal}>{product.marca}</Text>
                         </Text>
-                        <Text style={styles.name1}>
-                          DESCRIPCIÓN:{" "}
-                          
-                        </Text>
+                        <Text style={styles.name1}>DESCRIPCIÓN: </Text>
                         <ScrollView style={styles.modalDescription}>
                           <Text style={styles.buttonText}>
                             {product.descripcion}

@@ -165,6 +165,7 @@ const ProductScreen = () => {
         abrirModal={isModalVisible}
         setAbrirModal={setModalVisible}
         product={selectedProduct}
+        setProduct={setSelectedProduct}
       />
     </ContainerPrinicipal>
   );
