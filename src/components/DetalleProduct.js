@@ -21,6 +21,7 @@ const DetalleProduct = ({ abrirModal, setAbrirModal, product, setProduct }) => {
   const handleComprarProducto = (product, cantidad) => {
     anadirProducto(product._id, cantidad);
     setAbrirModal(false);
+    setProduct(null);
   };
 
   const closeModal = () => {
