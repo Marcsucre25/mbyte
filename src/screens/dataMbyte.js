@@ -76,7 +76,7 @@ const DataMByte = ({ navigation }) => {
               <SwiperFlatList
                 autoplayLoop
                 index={2}
-                data={products.productos}
+                data={products.productos.slice(0, 10)}
                 renderItem={_renderItem}
               />
             </View>
