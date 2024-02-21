@@ -17,9 +17,10 @@ const validateEmailDomains = (ValueEmail) => {
 };
 
 export const validateName = (name) => {
-  var re = /^[a-zA-ZñÑ\s]{3,}$/;
+  var re = /^[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]{3,}$/;
   return re.test(name);
 };
+
 
 export const validateLastName = (name) => {
   var re = /^[a-zA-ZñÑ\s]{3,}$/;
