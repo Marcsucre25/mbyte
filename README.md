@@ -64,5 +64,5 @@ Finalmente debe escanear el código que proporciona al ejecutar el proyecto con 
 Ir al siguiente link, descargar el apk e instalarlo
 
 ```bash
-  https://drive.google.com/file/d/1CXtKsOyYgiDaOAinhHJcayPnjHAvURpx/view?usp=sharing
+  https://drive.google.com/file/d/1D5R9yZ-MU-rHiJLbDF11FsRQLddIRi8J/view?usp=sharing
 ```
